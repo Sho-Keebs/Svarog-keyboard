@@ -1,0 +1,12 @@
+[submodule "keebs.pretty"]
+	path = lib/keebs.pretty
+	url = https://github.com/egladman/keebs.pretty.git
+[submodule "modules/keyboard_parts.pretty"]
+	path = modules/keyboard_parts.pretty
+	url = https://github.com/tmk/keyboard_parts.pretty
+[submodule "modules/keebs.pretty"]
+	path = modules/keebs.pretty
+	url = https://github.com/egladman/keebs.pretty.git
+[submodule "modules/kicad_lib_tmk"]
+	path = modules/kicad_lib_tmk
+	url = https://github.com/tmk/kicad_lib_tmk
