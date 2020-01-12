@@ -4621,11 +4621,11 @@ Text GLabel 3350 1550 2    50   UnSpc ~ 0
 row_4
 Text GLabel 3350 1750 2    50   UnSpc ~ 0
 row_2
-Text GLabel 3350 2350 2    50   UnSpc ~ 0
+Text GLabel 3350 4850 2    50   UnSpc ~ 0
 col_1
-Text GLabel 3350 2450 2    50   UnSpc ~ 0
+Text GLabel 3350 3550 2    50   UnSpc ~ 0
 col_3
-Text GLabel 3350 2550 2    50   UnSpc ~ 0
+Text GLabel 3350 3750 2    50   UnSpc ~ 0
 col_5
 Text GLabel 3350 1450 2    50   UnSpc ~ 0
 row_5
@@ -4633,29 +4633,29 @@ Text GLabel 3350 1650 2    50   UnSpc ~ 0
 row_3
 Text GLabel 3350 1850 2    50   UnSpc ~ 0
 row_1
-Text GLabel 3350 2650 2    50   UnSpc ~ 0
-col_2
-Text GLabel 3350 2750 2    50   UnSpc ~ 0
-col_4
-Text GLabel 3350 4150 2    50   UnSpc ~ 0
-col_14
-Text GLabel 3350 4250 2    50   UnSpc ~ 0
-col_13
 Text GLabel 3350 3450 2    50   UnSpc ~ 0
-col_12
-Text GLabel 3350 3550 2    50   UnSpc ~ 0
-col_11
+col_2
 Text GLabel 3350 3650 2    50   UnSpc ~ 0
+col_4
+Text GLabel 3350 2550 2    50   UnSpc ~ 0
+col_14
+Text GLabel 3350 2650 2    50   UnSpc ~ 0
+col_13
+Text GLabel 3350 2750 2    50   UnSpc ~ 0
+col_12
+Text GLabel 3350 4150 2    50   UnSpc ~ 0
+col_11
+Text GLabel 3350 4250 2    50   UnSpc ~ 0
 col_10
-Text GLabel 3350 3750 2    50   UnSpc ~ 0
+Text GLabel 3350 1950 2    50   UnSpc ~ 0
 col_9
 Text GLabel 3350 3850 2    50   UnSpc ~ 0
 col_8
-Text GLabel 3350 4750 2    50   UnSpc ~ 0
-col_7
-Text GLabel 3350 4850 2    50   UnSpc ~ 0
-col_15
 Text GLabel 3350 4650 2    50   UnSpc ~ 0
+col_7
+Text GLabel 3350 2450 2    50   UnSpc ~ 0
+col_15
+Text GLabel 3350 4750 2    50   UnSpc ~ 0
 col_6
 Wire Notes Line
 	16000 950  16000 5500
@@ -4810,17 +4810,17 @@ Text GLabel 2350 8300 0    50   UnSpc ~ 0
 SCL
 Text GLabel 2350 8200 0    50   UnSpc ~ 0
 SDA
-Text GLabel 8250 13200 2    50   UnSpc ~ 0
-col_f10
-Text GLabel 8250 13100 2    50   UnSpc ~ 0
-col_f11
-Text GLabel 8250 13400 2    50   UnSpc ~ 0
-col_f8
-Text GLabel 8250 13300 2    50   UnSpc ~ 0
-col_f9
-Text GLabel 8250 13600 2    50   UnSpc ~ 0
-col_f6
 Text GLabel 8250 13500 2    50   UnSpc ~ 0
+col_f10
+Text GLabel 8250 13600 2    50   UnSpc ~ 0
+col_f11
+Text GLabel 8250 13300 2    50   UnSpc ~ 0
+col_f8
+Text GLabel 8250 13400 2    50   UnSpc ~ 0
+col_f9
+Text GLabel 8250 13100 2    50   UnSpc ~ 0
+col_f6
+Text GLabel 8250 13200 2    50   UnSpc ~ 0
 col_f7
 Text GLabel 8250 12500 2    50   UnSpc ~ 0
 col_f4
@@ -5195,7 +5195,7 @@ Wire Wire Line
 	1950 10250 2000 10250
 Wire Wire Line
 	1950 14250 2000 14250
-Text GLabel 3350 1950 2    50   UnSpc ~ 0
+Text GLabel 3350 2350 2    50   UnSpc ~ 0
 CPS_LCK
 Text GLabel 3750 8200 2    50   UnSpc ~ 0
 NUM_LCK
@@ -5323,9 +5323,9 @@ F 3 "" H 1550 12400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6000 12800 0    50   UnSpc ~ 0
-SDA
+SDA_F
 Text GLabel 6000 12700 0    50   UnSpc ~ 0
-SCL
+SCL_F
 Wire Wire Line
 	6050 12700 6000 12700
 Wire Wire Line
@@ -5363,45 +5363,45 @@ F 3 "" H 6050 12600 50  0001 C CNN
 	1    6050 12600
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 8450 0    50   UnSpc ~ 0
+Text GLabel 1450 8700 0    50   UnSpc ~ 0
 SDA
-Text GLabel 1450 8350 0    50   UnSpc ~ 0
+Text GLabel 1450 8600 0    50   UnSpc ~ 0
 SCL
 Wire Wire Line
-	1500 8350 1450 8350
+	1500 8600 1450 8600
 Wire Wire Line
-	1500 8450 1450 8450
+	1500 8700 1450 8700
 $Comp
 L Connector:Conn_01x04_Female J9
 U 1 1 60AAE1B6
-P 1700 8450
-F 0 "J9" H 1750 8350 50  0000 L CNN
-F 1 "I2C" H 1750 8450 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1700 8450 50  0001 C CNN
-F 3 "~" H 1700 8450 50  0001 C CNN
-	1    1700 8450
+P 1700 8700
+F 0 "J9" H 1750 8600 50  0000 L CNN
+F 1 "I2C" H 1750 8700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1700 8700 50  0001 C CNN
+F 3 "~" H 1700 8700 50  0001 C CNN
+	1    1700 8700
 	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0152
 U 1 1 60AAE1BC
-P 1500 8550
-F 0 "#PWR0152" H 1500 8300 50  0001 C CNN
-F 1 "GND" H 1505 8377 50  0000 C CNN
-F 2 "" H 1500 8550 50  0001 C CNN
-F 3 "" H 1500 8550 50  0001 C CNN
-	1    1500 8550
+P 1500 8800
+F 0 "#PWR0152" H 1500 8550 50  0001 C CNN
+F 1 "GND" H 1505 8627 50  0000 C CNN
+F 2 "" H 1500 8800 50  0001 C CNN
+F 3 "" H 1500 8800 50  0001 C CNN
+	1    1500 8800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0153
 U 1 1 60AAE1C2
-P 1500 8250
-F 0 "#PWR0153" H 1500 8100 50  0001 C CNN
-F 1 "+5V" H 1515 8423 50  0000 C CNN
-F 2 "" H 1500 8250 50  0001 C CNN
-F 3 "" H 1500 8250 50  0001 C CNN
-	1    1500 8250
+P 1500 8500
+F 0 "#PWR0153" H 1500 8350 50  0001 C CNN
+F 1 "+5V" H 1515 8673 50  0000 C CNN
+F 2 "" H 1500 8500 50  0001 C CNN
+F 3 "" H 1500 8500 50  0001 C CNN
+	1    1500 8500
 	1    0    0    -1  
 $EndComp
 Text GLabel 1500 4050 0    50   UnSpc ~ 0
@@ -5851,9 +5851,9 @@ F 3 "" H 1550 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 6000 13550 0    50   UnSpc ~ 0
-SDA
+SDA_F
 Text GLabel 6000 13450 0    50   UnSpc ~ 0
-SCL
+SCL_F
 Wire Wire Line
 	6050 13450 6000 13450
 Wire Wire Line
@@ -5930,47 +5930,6 @@ F 1 "+5V" H 1565 13323 50  0000 C CNN
 F 2 "" H 1550 13150 50  0001 C CNN
 F 3 "" H 1550 13150 50  0001 C CNN
 	1    1550 13150
-	1    0    0    -1  
-$EndComp
-Text GLabel 1450 9200 0    50   UnSpc ~ 0
-SDA
-Text GLabel 1450 9100 0    50   UnSpc ~ 0
-SCL
-Wire Wire Line
-	1500 9100 1450 9100
-Wire Wire Line
-	1500 9200 1450 9200
-$Comp
-L Connector:Conn_01x04_Female J10
-U 1 1 5E9D4282
-P 1700 9200
-F 0 "J10" H 1750 9100 50  0000 L CNN
-F 1 "I2C" H 1750 9200 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1700 9200 50  0001 C CNN
-F 3 "~" H 1700 9200 50  0001 C CNN
-	1    1700 9200
-	1    0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0161
-U 1 1 5E9D4288
-P 1500 9300
-F 0 "#PWR0161" H 1500 9050 50  0001 C CNN
-F 1 "GND" H 1505 9127 50  0000 C CNN
-F 2 "" H 1500 9300 50  0001 C CNN
-F 3 "" H 1500 9300 50  0001 C CNN
-	1    1500 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0162
-U 1 1 5E9D428E
-P 1500 9000
-F 0 "#PWR0162" H 1500 8850 50  0001 C CNN
-F 1 "+5V" H 1515 9173 50  0000 C CNN
-F 2 "" H 1500 9000 50  0001 C CNN
-F 3 "" H 1500 9000 50  0001 C CNN
-	1    1500 9000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -6058,4 +6017,86 @@ NoConn ~ 3750 8500
 NoConn ~ 3750 8400
 NoConn ~ 3750 8300
 NoConn ~ 3750 9200
+$Comp
+L power:+5V #PWR0162
+U 1 1 5E9D428E
+P 1500 9250
+F 0 "#PWR0162" H 1500 9100 50  0001 C CNN
+F 1 "+5V" H 1515 9423 50  0000 C CNN
+F 2 "" H 1500 9250 50  0001 C CNN
+F 3 "" H 1500 9250 50  0001 C CNN
+	1    1500 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0161
+U 1 1 5E9D4288
+P 1500 9550
+F 0 "#PWR0161" H 1500 9300 50  0001 C CNN
+F 1 "GND" H 1505 9377 50  0000 C CNN
+F 2 "" H 1500 9550 50  0001 C CNN
+F 3 "" H 1500 9550 50  0001 C CNN
+	1    1500 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J10
+U 1 1 5E9D4282
+P 1700 9450
+F 0 "J10" H 1750 9350 50  0000 L CNN
+F 1 "I2C" H 1750 9450 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1700 9450 50  0001 C CNN
+F 3 "~" H 1700 9450 50  0001 C CNN
+	1    1700 9450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1500 9450 1450 9450
+Wire Wire Line
+	1500 9350 1450 9350
+Text GLabel 1450 9350 0    50   UnSpc ~ 0
+SCL
+Text GLabel 1450 9450 0    50   UnSpc ~ 0
+SDA
+Text GLabel 1450 7950 0    50   UnSpc ~ 0
+SDA
+Text GLabel 1450 7850 0    50   UnSpc ~ 0
+SCL
+Wire Wire Line
+	1500 7850 1450 7850
+Wire Wire Line
+	1500 7950 1450 7950
+$Comp
+L Connector:Conn_01x04_Female J11
+U 1 1 5E3E2794
+P 1700 7950
+F 0 "J11" H 1750 7850 50  0000 L CNN
+F 1 "I2C" H 1750 7950 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1700 7950 50  0001 C CNN
+F 3 "~" H 1700 7950 50  0001 C CNN
+	1    1700 7950
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E3E279A
+P 1500 8050
+F 0 "#PWR0101" H 1500 7800 50  0001 C CNN
+F 1 "GND" H 1505 7877 50  0000 C CNN
+F 2 "" H 1500 8050 50  0001 C CNN
+F 3 "" H 1500 8050 50  0001 C CNN
+	1    1500 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5E3E27A0
+P 1500 7750
+F 0 "#PWR0102" H 1500 7600 50  0001 C CNN
+F 1 "+5V" H 1515 7923 50  0000 C CNN
+F 2 "" H 1500 7750 50  0001 C CNN
+F 3 "" H 1500 7750 50  0001 C CNN
+	1    1500 7750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
