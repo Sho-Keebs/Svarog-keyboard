@@ -4617,21 +4617,21 @@ Wire Wire Line
 Connection ~ 7500 2450
 Wire Wire Line
 	7500 2450 7750 2450
-Text GLabel 3350 1450 2    50   UnSpc ~ 0
-row_4
 Text GLabel 3350 1550 2    50   UnSpc ~ 0
-row_2
-Text GLabel 3350 1650 2    50   UnSpc ~ 0
-col_1
+row_4
 Text GLabel 3350 1750 2    50   UnSpc ~ 0
-col_3
-Text GLabel 3350 1850 2    50   UnSpc ~ 0
-col_5
+row_2
 Text GLabel 3350 2350 2    50   UnSpc ~ 0
-row_5
+col_1
 Text GLabel 3350 2450 2    50   UnSpc ~ 0
-row_3
+col_3
 Text GLabel 3350 2550 2    50   UnSpc ~ 0
+col_5
+Text GLabel 3350 1450 2    50   UnSpc ~ 0
+row_5
+Text GLabel 3350 1650 2    50   UnSpc ~ 0
+row_3
+Text GLabel 3350 1850 2    50   UnSpc ~ 0
 row_1
 Text GLabel 3350 2650 2    50   UnSpc ~ 0
 col_2
@@ -4720,8 +4720,6 @@ $EndComp
 NoConn ~ 2350 8800
 NoConn ~ 2350 8900
 NoConn ~ 2350 9600
-NoConn ~ 3750 9700
-NoConn ~ 3750 9800
 Wire Notes Line
 	4500 7500 4500 11000
 Wire Notes Line
@@ -4856,28 +4854,14 @@ Text GLabel 3750 13600 2    50   UnSpc ~ 0
 col_l2
 Text GLabel 3750 13700 2    50   UnSpc ~ 0
 col_l3
-NoConn ~ 3750 9600
 NoConn ~ 3750 9400
 NoConn ~ 3750 9300
-NoConn ~ 3750 9500
-Text GLabel 3750 8200 2    50   UnSpc ~ 0
-row_r1
-Text GLabel 3750 8300 2    50   UnSpc ~ 0
-row_r2
-Text GLabel 3750 8400 2    50   UnSpc ~ 0
-row_r3
-Text GLabel 3750 8500 2    50   UnSpc ~ 0
-row_r4
-Text GLabel 3750 8600 2    50   UnSpc ~ 0
-row_r5
-Text GLabel 3750 8700 2    50   UnSpc ~ 0
+Text GLabel 3750 8900 2    50   UnSpc ~ 0
 col_r1
 Text GLabel 3750 8800 2    50   UnSpc ~ 0
 col_r2
-Text GLabel 3750 8900 2    50   UnSpc ~ 0
+Text GLabel 3750 8700 2    50   UnSpc ~ 0
 col_r3
-Text GLabel 3750 9100 2    50   UnSpc ~ 0
-col_r4
 $Comp
 L power:GND #PWR0134
 U 1 1 62A7FBC6
@@ -5213,7 +5197,7 @@ Wire Wire Line
 	1950 14250 2000 14250
 Text GLabel 3350 1950 2    50   UnSpc ~ 0
 CPS_LCK
-Text GLabel 3750 9200 2    50   UnSpc ~ 0
+Text GLabel 3750 8200 2    50   UnSpc ~ 0
 NUM_LCK
 Text GLabel 3750 12200 2    50   UnSpc ~ 0
 SCR_LCK
@@ -5664,7 +5648,7 @@ Wire Wire Line
 	17700 9850 19700 9850
 Connection ~ 19700 9850
 Wire Wire Line
-	19700 9850 21500 9850
+	19700 9850 20700 9850
 Wire Wire Line
 	20350 8700 20350 9450
 Connection ~ 20350 9450
@@ -5676,7 +5660,7 @@ U 1 1 5ED0A1D9
 P 21050 9450
 F 0 "K_RS2" H 21050 9450 60  0000 C CNN
 F 1 "KEYSW" H 21050 9350 60  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB" H 21050 9450 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 21050 9450 60  0001 C CNN
 F 3 "" H 21050 9450 60  0000 C CNN
 	1    21050 9450
 	1    0    0    -1  
@@ -5697,35 +5681,35 @@ Wire Wire Line
 Wire Wire Line
 	20700 9450 20700 9550
 $Comp
-L keyboard_parts:KEYSW K_RS1-1.5u1
+L keyboard_parts:KEYSW K_RS1-1u1
 U 1 1 5ED8F2CF
 P 20050 9450
-F 0 "K_RS1-1.5u1" H 20050 9450 60  0001 C CNN
+F 0 "K_RS1-1u1" H 20050 9450 60  0001 C CNN
 F 1 "KEYSW" H 20050 9350 60  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB" H 20050 9450 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 20050 9450 60  0001 C CNN
 F 3 "" H 20050 9450 60  0000 C CNN
 	1    20050 9450
 	1    0    0    -1  
 $EndComp
 Connection ~ 19750 9450
 $Comp
-L keyboard_parts:KEYSW K_RS1-1.25u1
+L keyboard_parts:KEYSW K_RS1-1.75u1
 U 1 1 5ED919A4
 P 20050 9450
-F 0 "K_RS1-1.25u1" H 20050 9450 60  0001 C CNN
+F 0 "K_RS1-1.75u1" H 20050 9450 60  0001 C CNN
 F 1 "KEYSW" H 20050 9350 60  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 20050 9450 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.75u_PCB" H 20050 9450 60  0001 C CNN
 F 3 "" H 20050 9450 60  0000 C CNN
 	1    20050 9450
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K_RS2-1.25u1
+L keyboard_parts:KEYSW K_RS2-1.75u1
 U 1 1 5ED9613B
 P 21050 9450
-F 0 "K_RS2-1.25u1" H 21050 9450 60  0001 C CNN
+F 0 "K_RS2-1.75u1" H 21050 9450 60  0001 C CNN
 F 1 "KEYSW" H 21050 9350 60  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.25u_PCB" H 21050 9450 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.75u_PCB" H 21050 9450 60  0001 C CNN
 F 3 "" H 21050 9450 60  0000 C CNN
 	1    21050 9450
 	1    0    0    -1  
@@ -6055,4 +6039,23 @@ NoConn ~ 3750 12300
 NoConn ~ 3750 12400
 NoConn ~ 3750 12500
 NoConn ~ 3750 12600
+Connection ~ 20700 9850
+Wire Wire Line
+	20700 9850 21500 9850
+Text GLabel 3750 9500 2    50   UnSpc ~ 0
+row_r2
+Text GLabel 3750 9600 2    50   UnSpc ~ 0
+row_r3
+Text GLabel 3750 9700 2    50   UnSpc ~ 0
+row_r4
+Text GLabel 3750 9800 2    50   UnSpc ~ 0
+row_r5
+Text GLabel 3750 9100 2    50   UnSpc ~ 0
+row_r1
+Text GLabel 3750 8600 2    50   UnSpc ~ 0
+col_r4
+NoConn ~ 3750 8500
+NoConn ~ 3750 8400
+NoConn ~ 3750 8300
+NoConn ~ 3750 9200
 $EndSCHEMATC
