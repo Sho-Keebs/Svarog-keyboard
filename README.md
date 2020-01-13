@@ -4,6 +4,16 @@
 
 This is my first attempt to make mechanical keyboard. It was supposed to look little bit retro, and have as many additional keys as possible, without taking a lot of space. Additionaly it has customizable and optional sidepanels (Numerical and Navigational).
 
+# License and availability
+
+The whole project is released under GNU GPL v3. What does it mean? You can get fabrication files completely free of charge, modify the source files of keyboard, and even fabricate and sell it without me knowing it. What’s the catch then? You have to have few things in mind:
+- There is no liability or warranty from my side that the keyboard is working (especially in current state),
+- If you want to fork my project you have to use the same license.
+
+# Firmware
+
+The goal is to use QMK. BUT Board is untested, no one built it yet. So obviously there is no working QMK configuration for it. You might get it working while using Discipline 65 config, but you won’t be able to get all keys working (if any), as pins on ATMega32A microcontroller are wired differently between these two keyboards.
+
 # Supported Layouts
 
 ![Svarog](doc/keyboard-all-layouts.png)
@@ -19,7 +29,6 @@ This is my first attempt to make mechanical keyboard. It was supposed to look li
 
 # Parts
 
-<center>
 |Part|Amount|Picture|
 |---|---|---|
 |ATMega32A-PU|1|![](./doc/bom-jpg/AM32apu.jpg)|
@@ -41,4 +50,6 @@ This is my first attempt to make mechanical keyboard. It was supposed to look li
 |Resistor 10k Ohm|3|![](./doc/bom-jpg/R10k.jpg)|
 |Resistor 5.1k Ohm|2|![](./doc/bom-jpg/R5-1k.jpg)|
 |Resistor 75 Ohm|2|![](./doc/bom-jpg/R75.jpg)|
-</center>
+
+# Pre-Release
+So as for now, I’ve published pre-release fabrication files for anyone who want to try to build and test it in it’s current form.
