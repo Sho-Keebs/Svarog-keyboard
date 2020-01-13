@@ -19,6 +19,7 @@ This is my first attempt to make mechanical keyboard. It was supposed to look li
 
 # Parts
 
+<center>
 |Part|Amount|Picture|
 |---|---|---|
 |ATMega32A-PU|1|![](./doc/bom-jpg/AM32apu.jpg)|
@@ -40,3 +41,4 @@ This is my first attempt to make mechanical keyboard. It was supposed to look li
 |Resistor 10k Ohm|3|![](./doc/bom-jpg/R10k.jpg)|
 |Resistor 5.1k Ohm|2|![](./doc/bom-jpg/R5-1k.jpg)|
 |Resistor 75 Ohm|2|![](./doc/bom-jpg/R75.jpg)|
+</center>
