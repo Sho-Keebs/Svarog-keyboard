@@ -2,6 +2,9 @@
 
 ![Svarog](doc/svarog-keyboard.png)
 
+[![License](https://img.shields.io/github/license/Sheerley/Svarog-keyboard](https://github.com/Sheerley/Svarog-keyboard/blob/master/LICENSE)
+[![Current Version](https://img.shields.io/github/tag/Sheerley/Svarog-keyboard)](https://github.com/Sheerley/Svarog-keyboard/tags)
+
 This is my first attempt to make mechanical keyboard. It was supposed to look little bit retro, and have as many additional keys as possible, without taking a lot of space. Additionaly it has customizable and optional sidepanels (Numerical and Navigational).
 
 # License and availability
