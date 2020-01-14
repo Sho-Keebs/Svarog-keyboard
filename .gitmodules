@@ -1,15 +1,15 @@
-[submodule "keebs.pretty"]
-	path = lib/keebs.pretty
+[submodule "pcb/modules/keebs.pretty"]
+	path = pcb/modules/keebs.pretty
 	url = https://github.com/egladman/keebs.pretty.git
-[submodule "modules/keyboard_parts.pretty"]
-	path = modules/keyboard_parts.pretty
+[submodule "pcb/modules/keyboard_parts.pretty"]
+	path = pcb/modules/keyboard_parts.pretty
 	url = https://github.com/tmk/keyboard_parts.pretty
-[submodule "modules/keebs.pretty"]
+[submodule "pcb/modules/keebs.pretty"]
 	path = modules/keebs.pretty
 	url = https://github.com/egladman/keebs.pretty.git
-[submodule "modules/kicad_lib_tmk"]
-	path = modules/kicad_lib_tmk
+[submodule "pcb/modules/kicad_lib_tmk"]
+	path = pcb/modules/kicad_lib_tmk
 	url = https://github.com/tmk/kicad_lib_tmk
-[submodule "modules/MX_Alps_Hybrid"]
-	path = modules/MX_Alps_Hybrid
+[submodule "pcb/modules/MX_Alps_Hybrid"]
+	path = pcb/modules/MX_Alps_Hybrid
 	url = https://github.com/ai03-2725/MX_Alps_Hybrid
