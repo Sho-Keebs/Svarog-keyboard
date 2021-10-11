@@ -1,3 +1,7 @@
+## ⚠ Notice
+
+This project is no longer under active developement. If you want to work on this, please contact me @ [echelon.div@gmail.com](mailto:echelon.div@gmail.com).
+
 # Svarog-keyboard
 
 ![Svarog](doc/svarog-keyboard.png)
